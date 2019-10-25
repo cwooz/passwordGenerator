@@ -47,11 +47,6 @@ generateEl.addEventListener('click', () => {
 
 // Generate Password Function
 function generatePassword(length, lower, upper, number, symbol) {
-  // 1 Init password var
-  // 2. Filter out unchecked types
-  // 3. Loop over length call generator function for each type
-  // 4. Add final password to the 'password' var and return
-
   let generatedPassword = ''
   const typesCount = lower + upper + number + symbol
   // console.log('typesCount: ', typesCount)
@@ -96,5 +91,5 @@ function getRandomSymbol() {
 }
 
 
-console.log(getRandomSymbol());
+// console.log(getRandomSymbol());
 
